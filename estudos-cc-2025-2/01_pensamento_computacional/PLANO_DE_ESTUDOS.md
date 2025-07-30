@@ -17,9 +17,9 @@
   - [x] **1.4 - Códigos e Algoritmos:** Definir e diferenciar os dois conceitos essenciais.
   - [x] **1.5 - Anotações Consolidadas:** Organizar todo o aprendizado no arquivo `anotacoes/01_introducao_principios.md`.
 
-- [ ] **TEMA 2: Fundamentos de Software**
-  - [ ] Estudar SO, Firmware e Linguagens de Programação.
-  - [ ] Fazer anotações em `anotacoes/02_fundamentos_software.md`.
+- [x] **TEMA 2: Fundamentos de Software**
+  - [x] Estudar SO, Firmware e Linguagens de Programação.
+  - [x] Fazer anotações em `anotacoes/02_fundamentos_software.md`.
 
 - [ ] **TEMA 3: Fundamentos de Hardware**
   - [ ] Revisar componentes básicos e unidades de armazenamento.
