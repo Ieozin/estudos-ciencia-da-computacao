@@ -33,7 +33,13 @@
   - [ ] Estudar manipulação de dados, estruturas de repetição e condicionais.
   - [ ] **Praticar:** Criar os primeiros scripts em `exercicios/`.
 
-- [ ] **Exercícios Gerais:** Concluir todas as listas de exercícios do portal.
+- [ ] **Exercícios Gerais:**
+  - [x] Concluir Lista 1 (Tema 2) - 30/07/2025
+  - [ ] Concluir Lista 2 (Tema 3)
+  - [ ] Concluir Lista 3 (Tema 4)
+  - [ ] Concluir Lista 4 (Tema 5)
+  - [ ] Concluir Lista 5 (Tema 6)
+  - [ ] Concluir Lista 6 (Tema 7)
 
 ### Fase 2: Revisão e Avaliação (05/08 a 11/08)
 - [ ] **07/08:** Revisão geral de todos os temas.
