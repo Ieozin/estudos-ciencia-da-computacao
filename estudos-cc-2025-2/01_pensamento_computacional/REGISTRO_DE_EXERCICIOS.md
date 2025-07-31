@@ -20,12 +20,36 @@ Esta lista de exercícios reforçou os conceitos essenciais da primeira aula, fo
 
 ### Análise do Erro (Questão 8)
 - **Pergunta:** O que é um algoritmo?
-- **Minha Resposta (Incorreta):** (C) O processador do computador, que processa instruções escritas em alguma linguagem para, através de uma sequência de instruções bastante simples, gerar uma aplicação útil.
-- **Resposta Correta:** (E) Um algoritmo é uma sequência finita de instruções simples e executáveis a serem seguidas para a solução de um determinado problema, especialmente por computadores.
+- **Minha Resposta (Incorreta):** (C) O processador do computador...
+- **Resposta Correta:** (E) Um algoritmo é uma sequência finita de instruções...
+- **Análise do Aprendizado:** O erro foi confundir a ferramenta (processador) com a lógica (algoritmo). O processador *executa*, o humano *cria o algoritmo*.
 
-**Análise do Aprendizado:**
-Este é um erro "bom" de se cometer, pois ele me força a separar claramente os conceitos.
-- O **Processador (C)** é o **HARDWARE** que *executa* as instruções. Ele é a máquina.
-- O **Algoritmo (E)** é a **LÓGICA**, a "receita do bolo", a sequência de passos abstrata criada pelo humano.
-- O **Ser Humano (D)** é quem *cria* o algoritmo.
-O erro foi confundir a ferramenta (processador) com a lógica (algoritmo). O gabarito comentado deixa claro: o algoritmo é a sequência, e o humano é quem a projeta para resolver um problema.
+---
+
+## Lista 2 (Tema 3) - Fundamentos de Softwares
+- **Data de Realização:** 31/07/2025
+- **Desempenho:** 8/10 (80%)
+
+### Resumo e Pontos-Chave das Questões
+Esta lista focou na mecânica de como um software funciona, desde a compilação até a execução e o papel do SO.
+
+- **Questão 1 (Interpretador):** Interpreta e executa, uma a uma, cada linha do código-fonte.
+- **Questão 2 (BIOS):** Software básico que inicia o hardware e carrega o SO.
+- **Questão 3 (Estrutura "if"):** Executa ações diferentes de acordo com uma condição.
+- **Questão 5 (Compilador):** Traduz código-fonte de alto nível em código de máquina.
+- **Questão 6 (Código Fechado):** Usuários não têm acesso ao código-fonte (ex: Windows).
+- **Questão 7 (Software Proprietário):** O autor nega o acesso livre ao código-fonte.
+- **Questão 9 (Python `print`):** A função para imprimir em Python é `print()`.
+- **Questão 10 (Hardware vs. Software):** Mouse é hardware, Editor de Textos é software.
+
+### Análise dos Erros
+
+#### Questão 4: Compilado vs. Interpretado
+- **Pergunta:** Comparação de performance.
+- **Resposta Correta:** Compilado é mais rápido que Interpretado.
+- **Análise do Aprendizado:** Meu erro foi inverter a lógica. O fato da tradução do código compilado ser feita *antes* da execução o torna muito mais performático. **Compilado = Rápido; Interpretado = Lento**.
+
+#### Questão 8: Relação Código > Compilador > Máquina
+- **Pergunta:** Descrição correta do fluxo.
+- **Resposta Correta:** O programador escreve em alto nível, o **compilador** traduz, e a máquina executa o resultado.
+- **Análise do Aprendizado:** Meu erro foi omitir o passo do compilador. O código de alto nível **não** está pronto para ser executado diretamente pela CPU. Ele sempre precisa de um tradutor.
