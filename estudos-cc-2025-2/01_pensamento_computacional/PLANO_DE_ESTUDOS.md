@@ -21,9 +21,9 @@
   - [x] Estudar SO, Firmware e Linguagens de Programação.
   - [x] Fazer anotações em `anotacoes/02_fundamentos_software.md`.
 
-- [ ] **TEMA 3: Fundamentos de Hardware**
-  - [ ] Revisar componentes básicos e unidades de armazenamento.
-  - [ ] Fazer anotações em `anotacoes/03_fundamentos_hardware.md`.
+- [x] **TEMA 3: Fundamentos de Hardware**
+  - [x] Revisar componentes básicos e unidades de armazenamento.
+  - [x] Fazer anotações em `anotacoes/03_fundamentos_hardware.md`.
 
 - [ ] **TEMA 4: Representação de Imagens**
   - [ ] Entender Pixels e o esquema RGB.
