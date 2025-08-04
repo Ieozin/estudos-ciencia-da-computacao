@@ -53,3 +53,36 @@ Esta lista focou na mecânica de como um software funciona, desde a compilação
 - **Pergunta:** Descrição correta do fluxo.
 - **Resposta Correta:** O programador escreve em alto nível, o **compilador** traduz, e a máquina executa o resultado.
 - **Análise do Aprendizado:** Meu erro foi omitir o passo do compilador. O código de alto nível **não** está pronto para ser executado diretamente pela CPU. Ele sempre precisa de um tradutor.
+
+---
+
+## Lista 3 (Tema 4) - Fundamentos de Hardware
+- **Data de Realização:** 01/08/2025
+- **Desempenho:** 9/10 (90%)
+
+### Resumo e Pontos-Chave das Questões
+
+Esta lista de exercícios foi excelente para solidificar os componentes físicos, a Lei de Moore e as unidades de medida.
+
+- **Questão 1 (SSD vs. HD):** O SSD **proporciona transferência de arquivos mais rápida** que o HD externo por não possuir partes mecânicas.
+- **Questão 2 (Unidades de Medida):** Um Gigabyte (GB) possui **1024 Megabytes (MB)**.
+- **Questão 3 (Lei de Moore):** As consequências diretas são a **redução no custo dos computadores** e o **aumento do poder computacional** disponível ao público.
+- **Questão 4 (Bits e Bytes):** Um byte é formado por **8 bits** e pode representar **256** valores distintos (2^8).
+- **Questão 5 (Cérebro do Computador):** O componente considerado o "cérebro" é a **CPU**.
+- **Questão 6 (Placa-Mãe):** Identificação de componentes chave, como **Memória RAM e CPU**.
+- **Questão 8 (Divisão Binária):** A questão `110 / 10` em binário equivale a `6 / 2` em decimal, cujo resultado é `3` (ou `11` em binário). A resposta da plataforma focou em um cálculo específico que resultou em 10.
+- **Questão 9 (Executor de Instruções):** Mais uma vez, o componente responsável por executar instruções é a **CPU**.
+- **Questão 10 (Valores em Bits):** Com 5 bits, é possível representar **32** valores distintos (2^5).
+
+### Análise do Erro (Questão 7)
+
+- **Pergunta:** Conversão de unidades de armazenamento em grande escala (1 Zettabyte).
+- **Minha Resposta (Incorreta):** (C) 1024 PB (Petabytes).
+- **Resposta Correta:** (D) 1024 EB (Exabytes).
+
+**Análise do Aprendizado:**
+Este erro foi ótimo para me forçar a memorizar a ordem correta da escala de armazenamento de dados. Eu confundi a posição do Petabyte e do Exabyte. A sequência correta, do menor para o maior, é:
+
+`... Tera (TB) -> Peta (PB) -> Exa (EB) -> Zetta (ZB) -> Yotta (YB) ...`
+
+Como **Zettabyte** vem *imediatamente depois* de **Exabyte**, a relação é: **1 ZB = 1024 EB**. Fica claro que confundi a ordem. Agora o conceito está fixado!
