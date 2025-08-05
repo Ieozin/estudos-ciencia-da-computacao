@@ -86,3 +86,40 @@ Este erro foi ótimo para me forçar a memorizar a ordem correta da escala de ar
 `... Tera (TB) -> Peta (PB) -> Exa (EB) -> Zetta (ZB) -> Yotta (YB) ...`
 
 Como **Zettabyte** vem *imediatamente depois* de **Exabyte**, a relação é: **1 ZB = 1024 EB**. Fica claro que confundi a ordem. Agora o conceito está fixado!
+
+---
+
+## Lista 4 (Tema 5) - Representação de Imagens
+- **Data de Realização:** 02/08/2025
+- **Desempenho:** 9/10 (90%)
+
+### Resumo e Pontos-Chave das Questões
+
+Esta lista foi uma ótima revisão sobre a aplicação prática dos conceitos de imagem digital.
+
+- **Questão 1 (Fotogrametria):** Uma imagem digital é uma matriz de células (pixels), cada uma com uma cor. A afirmação sobre o cálculo do total de pixels (400*500) ser diferente de 900 estava correta, validando que a imagem é uma grade.
+- **Questão 2 (Pensamento Computacional):** A habilidade de simplificar a imagem do mundo real em uma sequência de números binários é a **abstração**.
+- **Questão 3 (Definição de Pixel):** O pixel é a **unidade básica de medida de resolução** em imagens digitais.
+- **Questão 4 (Cores RGB):** O sistema de cor RGB é baseado nas cores primárias de luz: **vermelho, verde e azul**.
+- **Questão 5 (Uso de Grayscale):** Em hospitais, usa-se grayscale para **reduzir o tempo e a complexidade do processamento** das imagens, focando no contraste e nos detalhes estruturais.
+- **Questão 6 (Código RGB para Preto):** A ausência total de luz, ou preto, é representada pelo código **(0,0,0)**.
+- **Questão 7 (Grayscale em Visão Computacional):** É utilizada para **simplificar a identificação de áreas homogêneas**, facilitando o trabalho dos algoritmos de reconhecimento facial.
+- **Questão 9 (Definição de Pixel - Reforço):** Novamente, o pixel é a **unidade básica de medida em resoluções digitais**.
+- **Questão 10 (Cores RGB - Reforço):** O sistema RGB é baseado em **vermelho, verde e azul**.
+
+### Análise do Erro (Questão 8)
+
+- **Pergunta:** Qual é a coordenada do pixel preto em uma grade?
+- **Minha Resposta (Incorreta):** (B) (2,3).
+- **Resposta Correta:** (D) (2,1).
+
+**Análise do Aprendizado:**
+Este erro é uma "pegadinha" clássica e fundamental do mundo da programação: a **indexação baseada em zero (0-based indexing)**.
+
+Eu provavelmente contei as linhas e colunas começando do número 1, como fazemos no dia a dia. No entanto, em computação, as contagens quase sempre começam do 0.
+
+Analisando a grade:
+- **Eixo X (Colunas):** A contagem é Coluna 0, Coluna 1, **Coluna 2**. O pixel preto está na terceira coluna, portanto, seu índice X é **2**.
+- **Eixo Y (Linhas):** A contagem é Linha 0, **Linha 1**, Linha 2, Linha 3. O pixel preto está na segunda linha, portanto, seu índice Y é **1**.
+
+Logo, a coordenada correta é **(2,1)**. Este erro foi extremamente valioso para fixar o conceito de que, para o computador, o primeiro elemento de qualquer sequência é quase sempre o de índice 0.
