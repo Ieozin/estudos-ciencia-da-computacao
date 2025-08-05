@@ -37,7 +37,7 @@
   - [x] Concluir Lista 1 (Tema 2) - 30/07/2025
   - [x] Concluir Lista 2 (Tema 3) - 31/07/2025
   - [x] Concluir Lista 3 (Tema 4) - 04/08/2025
-  - [ ] Concluir Lista 4 (Tema 5)
+  - [x] Concluir Lista 4 (Tema 5) - 05/08/2025
   - [ ] Concluir Lista 5 (Tema 6)
   - [ ] Concluir Lista 6 (Tema 7)
 
