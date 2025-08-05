@@ -57,7 +57,7 @@ Esta lista focou na mecânica de como um software funciona, desde a compilação
 ---
 
 ## Lista 3 (Tema 4) - Fundamentos de Hardware
-- **Data de Realização:** 01/08/2025
+- **Data de Realização:** 04/08/2025
 - **Desempenho:** 9/10 (90%)
 
 ### Resumo e Pontos-Chave das Questões
