@@ -25,9 +25,9 @@
   - [x] Revisar componentes básicos e unidades de armazenamento.
   - [x] Fazer anotações em `anotacoes/03_fundamentos_hardware.md`.
 
-- [ ] **TEMA 4: Representação de Imagens**
-  - [ ] Entender Pixels e o esquema RGB.
-  - [ ] Fazer anotações em `anotacoes/04_representacao_imagens.md`.
+- [x] **TEMA 4: Representação de Imagens**
+  - [x] Entender Pixels e o esquema RGB.
+  - [x] Fazer anotações em `anotacoes/04_representacao_imagens.md`.
 
 - [ ] **TEMA 5: Noções de Programação (Prática)**
   - [ ] Estudar manipulação de dados, estruturas de repetição e condicionais.
