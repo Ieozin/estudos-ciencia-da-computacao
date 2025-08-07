@@ -10,34 +10,33 @@
 
 ### Fase 1: Conteúdo e Prática (Férias - até 04/08)
 
-- [x] **TEMA 1: Introdução aos Princípios Fundamentais**
-  - [x] **1.1 - Conceitos Iniciais:** Entender a diferença entre Hardware e Software.
-  - [x] **1.2 - A Equação Fundamental:** Compreender a relação "poder de processamento vs. ausência de raciocínio".
-  - [x] **1.3 - Humano vs. Máquina:** Refletir sobre a relação com a IA e a Alegoria da Caverna.
-  - [x] **1.4 - Códigos e Algoritmos:** Definir e diferenciar os dois conceitos essenciais.
-  - [x] **1.5 - Anotações Consolidadas:** Organizar todo o aprendizado no arquivo `anotacoes/01_introducao_principios.md`.
+- [x] **TEMA 1: Introdução aos Princípios Fundamentais - Concluído em 30/07/2025**
+  - [x] 1.1 - Conceitos Iniciais: Entender a diferença entre Hardware e Software.
+  - [x] 1.2 - A Equação Fundamental: Compreender a relação "poder de processamento vs. ausência de raciocínio".
+  - [x] 1.3 - Humano vs. Máquina: Refletir sobre a relação com a IA e a Alegoria da Caverna.
+  - [x] 1.4 - Códigos e Algoritmos: Definir e diferenciar os dois conceitos essenciais.
 
-- [x] **TEMA 2: Fundamentos de Software**
+- [x] **TEMA 2: Fundamentos de Software - Concluído em 31/07/2025**
   - [x] Estudar SO, Firmware e Linguagens de Programação.
   - [x] Fazer anotações em `anotacoes/02_fundamentos_software.md`.
 
-- [x] **TEMA 3: Fundamentos de Hardware**
+- [x] **TEMA 3: Fundamentos de Hardware - Concluído em 01/08/2025**
   - [x] Revisar componentes básicos e unidades de armazenamento.
   - [x] Fazer anotações em `anotacoes/03_fundamentos_hardware.md`.
 
-- [x] **TEMA 4: Representação de Imagens**
+- [x] **TEMA 4: Representação de Imagens - Concluído em 02/08/2025**
   - [x] Entender Pixels e o esquema RGB.
   - [x] Fazer anotações em `anotacoes/04_representacao_imagens.md`.
 
-- [ ] **TEMA 5: Noções de Programação (Prática)**
-  - [ ] Estudar manipulação de dados, estruturas de repetição e condicionais.
-  - [ ] **Praticar:** Criar os primeiros scripts em `exercicios/`.
+- [x] **TEMA 5: Noções de Programação (Prática) - Concluído em 06/08/2025**
+  - [x] Estudar manipulação de dados, estruturas de repetição e condicionais.
+  - [x] Praticar com os exercícios interativos da plataforma.
 
 - [ ] **Exercícios Gerais:**
   - [x] Concluir Lista 1 (Tema 2) - 30/07/2025
   - [x] Concluir Lista 2 (Tema 3) - 31/07/2025
-  - [x] Concluir Lista 3 (Tema 4) - 04/08/2025
-  - [x] Concluir Lista 4 (Tema 5) - 05/08/2025
+  - [x] Concluir Lista 3 (Tema 4) - 01/08/2025
+  - [x] Concluir Lista 4 (Tema 5) - 02/08/2025
   - [ ] Concluir Lista 5 (Tema 6)
   - [ ] Concluir Lista 6 (Tema 7)
 
