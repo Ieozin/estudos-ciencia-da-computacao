@@ -74,4 +74,4 @@ Como transformamos uma necessidade humana em algo que uma máquina "tola" pode e
 > - **Definição de Algoritmo:** Um conjunto de passos, escrito em linguagem normal, com uma finalidade útil. (Atividade 3 - Algoritmo)
 
 ---
-*Este arquivo será expandido conforme o progresso na disciplina.*
+*Anotações em constante evolução.*
