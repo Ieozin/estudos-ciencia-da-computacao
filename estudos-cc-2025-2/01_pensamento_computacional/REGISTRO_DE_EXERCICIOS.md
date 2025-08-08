@@ -123,3 +123,73 @@ Analisando a grade:
 - **Eixo Y (Linhas):** A contagem é Linha 0, **Linha 1**, Linha 2, Linha 3. O pixel preto está na segunda linha, portanto, seu índice Y é **1**.
 
 Logo, a coordenada correta é **(2,1)**. Este erro foi extremamente valioso para fixar o conceito de que, para o computador, o primeiro elemento de qualquer sequência é quase sempre o de índice 0.
+
+---
+
+## Lista 5 (Tema 6) - Noções de Programação
+- **Data de Realização:** 07/08/2025
+- **Desempenho:** 9/10 (90%)
+
+### Resumo e Pontos-Chave das Questões
+
+Esta lista de exercícios foi focada nos pilares do pensamento computacional e na aplicação prática de estruturas de repetição e decisão.
+
+- **Questão 1 (Código RGB):** A cor roxa foi representada pelo código RGB **(120,80,0)** nas opções dadas.
+- **Questão 2 (Pilar do Pensamento Computacional):** Simplificar um problema ignorando detalhes irrelevantes é a **abstração**.
+- **Questão 3 (Execução Sequencial):** A execução sequencial do código resulta em um pixel preto sendo deslocado para baixo.
+- **Questão 4 (Pilar do Pensamento Computacional):** A habilidade de observar os resultados, identificar limitações e refinar o código é a **análise/avaliação**.
+- **Questão 5 (Estrutura de Repetição):** A função principal das estruturas de repetição é **executar um conjunto de instruções várias vezes de forma eficiente**.
+- **Questão 6 (Pilar do Pensamento Computacional):** Quebrar uma tarefa maior e complexa em etapas menores e gerenciáveis é a **decomposição**.
+- **Questão 7 (Parâmetro de Zoom):** O parâmetro para aumentar o zoom de uma imagem na função mencionada é o **setZoom**.
+- **Questão 9 (Técnica de Repetição):** Para repetir uma instrução para todos os pixels, a técnica correta é o laço de repetição **for(pixel: img)**.
+- **Questão 10 (Técnica de Seleção):** Para selecionar pixels específicos com base em uma condição, a técnica correta é a instrução condicional **if( pixel.getRed() > 130 )**.
+
+### Análise do Erro (Questão 8)
+
+- **Pergunta:** Qual o conceito fundamental que envolve a capacidade de escrever soluções que o computador pode seguir automaticamente?
+- **Minha Resposta (Incorreta):** (A) Fatoração.
+- **Resposta Correta:** (B) Automação.
+
+**Análise do Aprendizado:**
+Este foi um erro conceitual importante. Eu associei "Fatoração" (que vem de "fatorar", quebrar em partes) com a ideia de criar um passo a passo. No entanto, o termo correto para a habilidade de criar uma solução que a máquina executa sozinha, de forma automática, é **Automação**.
+
+Vamos definir os pilares para não confundir mais:
+- **Decomposição:** Quebrar um problema grande em problemas menores.
+- **Abstração:** Focar no que é essencial e ignorar detalhes irrelevantes.
+- **Reconhecimento de Padrões:** Encontrar similaridades e repetições.
+- **Automação (Algoritmo):** Criar a solução passo a passo que o computador pode seguir para resolver o problema.
+
+"Fatoração" é mais sinônimo de "Decomposição". A criação da solução executável é a **Automação**. Conceito fixado.
+
+---
+
+## Lista 6 (Tema 7) - Pensamento Computacional e Aplicações
+- **Data de Realização:** 08/08/2025
+- **Desempenho:** 8/10 (80%)
+
+### Resumo e Pontos-Chave das Questões
+
+Esta última lista focou na aplicação do pensamento computacional em diversas áreas e no reforço dos seus pilares fundamentais.
+
+- **Questão 2 (BNCC):** Para a educação básica, o pensamento computacional envolve entender **a lógica da programação e como funcionam os algoritmos**.
+- **Questão 3 (Definição de PC):** A melhor definição é: **uma forma de estruturar a resolução de problemas complexos**.
+- **Questão 4 (Economia Criativa):** Todas as opções (Artes performáticas, Artes visuais, Audiovisual, etc.) fazem parte da Economia Criativa.
+- **Questão 5 (Educação):** O pensamento educacional deve ser introduzido **desde o Ensino Fundamental, para todos os alunos**.
+- **Questão 6 (Pilares do PC):** As quatro dimensões são **Decomposição, reconhecimento de padrões, abstração e algoritmos**.
+- **Questão 8 (Definição de Abstração):** A abstração é a **habilidade de simplificar problemas complexos por meio de conceitos mais gerais**.
+- **Questão 9 (PC na Economia Criativa):** O pensamento computacional é um **fator agregador, mas não essencial** para a existência da Economia Criativa (que se baseia na imaginação e exploração de ideias).
+- **Questão 10 (Definição de PC - Reforço):** É **o conjunto de habilidades mentais para solucionar problemas de forma lógica e sistemática**.
+
+### Análise dos Erros
+
+#### Questão 1: Computação no Direito
+- **Pergunta:** Como a computação pode ajudar o Direito?
+- **Minha Resposta (Incorreta):** (A) Automatização de todo o processo jurídico.
+- **Resposta Correta:** (C) Melhoria na organização e gestão de processos jurídicos.
+- **Análise do Aprendizado:** Meu erro foi escolher uma resposta absoluta e exagerada. A computação, hoje, não substitui *todo* o processo, que envolve julgamento e criatividade humana. Ela atua como uma ferramenta poderosa para **melhorar a organização e a gestão**, analisando dados, encontrando padrões e automatizando tarefas repetitivas, mas não o processo inteiro. A palavra-chave é **melhoria e auxílio**, não substituição completa.
+
+#### Questão 7: Competências (Soft Skills)
+- **Pergunta:** Sobre as competências da Indústria 4.0.
+- **Minha Resposta (Incorreta):** (D) Devem ser desenvolvidas profissionalmente colaborações que não exijam carga de tolerância, dadas as plataformas.
+- **Resposta Correta:** (E) Incluem habilidades como criatividade, bom relacionamento interpessoal, subjugada à inteligência emocional.
+- **Análise do Aprendizado:** O erro aqui foi de interpretação sobre o que são as "soft skills". A minha resposta (D) foca em um aspecto negativo e um pouco confuso. A resposta correta (E) lista as habilidades positivas que são realmente valorizadas: **criatividade, relacionamento, inteligência emocional**. O aprendizado é focar nas competências construtivas que o mercado busca, que complementam o conhecimento técnico.
