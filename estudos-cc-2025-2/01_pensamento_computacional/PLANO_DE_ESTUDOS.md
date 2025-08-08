@@ -31,6 +31,10 @@
 - [x] **TEMA 5: Noções de Programação (Prática) - Concluído em 06/08/2025**
   - [x] Estudar manipulação de dados, estruturas de repetição e condicionais.
   - [x] Praticar com os exercícios interativos da plataforma.
+  
+- [x] **TEMA 6: Aplicações do Pensamento Computacional - Concluído em 08/08/2025**
+  - [x] Ler sobre as aplicações em diversas áreas.
+  - [x] Fazer anotações em `anotacoes/06_aplicacoes_pensamento_comp.md`.
 
 - [ ] **Exercícios Gerais:**
   - [x] Concluir Lista 1 (Tema 2) - 30/07/2025
