@@ -36,13 +36,13 @@
   - [x] Ler sobre as aplicações em diversas áreas.
   - [x] Fazer anotações em `anotacoes/06_aplicacoes_pensamento_comp.md`.
 
-- [ ] **Exercícios Gerais:**
+- [x] **Exercícios Gerais - CONCLUÍDOS**
   - [x] Concluir Lista 1 (Tema 2) - 30/07/2025
   - [x] Concluir Lista 2 (Tema 3) - 31/07/2025
   - [x] Concluir Lista 3 (Tema 4) - 01/08/2025
   - [x] Concluir Lista 4 (Tema 5) - 02/08/2025
-  - [x] Concluir Lista 5 (Tema 6) - 08/08/2025
-  - [ ] Concluir Lista 6 (Tema 7)
+  - [x] Concluir Lista 5 (Tema 6) - 07/08/2025
+  - [x] Concluir Lista 6 (Tema 7) - 08/08/2025
 
 ### Fase 2: Revisão e Avaliação (05/08 a 11/08)
 - [ ] **07/08:** Revisão geral de todos os temas.
