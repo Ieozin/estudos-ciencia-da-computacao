@@ -9,7 +9,7 @@ Bem-vindo ao meu repositório de estudos! Este espaço é dedicado a documentar 
 | Fundamentos de Redes de Computadores | ✅ Concluída |
 | Introdução à Segurança da Informação | ✅ Concluída |
 | Computação em Nuvem | ✅ Concluída |
-| **Pensamento Computacional** | ⏳ Em andamento |
+| **Pensamento Computacional** | ✅ Concluída |
 | **Introdução à Programação** | ⚪ Não iniciada |
 
 ## 📁 Estrutura do Repositório
