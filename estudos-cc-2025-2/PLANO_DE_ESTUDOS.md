@@ -16,7 +16,7 @@
 
 - [ ] **TEMA 2: Super Trunfo em C: Fundamentos e Técnicas**
   - [ ] **Estudo:** Aprender sobre variáveis, operadores e funções de entrada/saída.
-  - [ ] **Prática:** Iniciar o desenvolvimento do jogo em `exercicios/super_trunfo.c`.
+  - [x] **Prática:** Iniciar o desenvolvimento do jogo em `exercicios/super_trunfo.c`.
   - [ ] **Anotações:** Documentar o aprendizado em `anotacoes/01_super_trunfo_fundamentos.md`.
 
 - [ ] **TEMA 3: Super Trunfo em C: Desenvolvendo a Lógica do Jogo**

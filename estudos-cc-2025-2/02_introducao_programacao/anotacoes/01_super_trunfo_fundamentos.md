@@ -2,42 +2,44 @@
 
 Este é o primeiro projeto prático da disciplina, focado em construir um jogo de Super Trunfo com o tema "Países" utilizando a linguagem C. O objetivo é aplicar os conceitos fundamentais da programação de forma prática.
 
-## A Missão Inicial: Cadastro de Cartas
+## 1. A Missão Inicial: Cadastro de Cartas
 
 O primeiro passo do projeto é criar um sistema para cadastrar as informações das cartas do jogo. Isso servirá como base para fixar os conceitos de variáveis, operadores e funções de entrada/saída. O projeto será um ótimo item de portfólio no GitHub.
 
-## O Conceito-Chave: Solução Estruturada
+## 2. O Conceito-Chave: Solução Estruturada
 
 Para se tornar um bom programador, é essencial criar soluções de forma estruturada. Programar é como seguir uma receita de bolo: o problema grande é dividido em passos menores e claros para garantir um resultado perfeito. Um código bem organizado facilita não só a minha vida, mas a de qualquer outra pessoa que precise ler ou dar manutenção no meu projeto.
 
 ### Boas Práticas para um Código Organizado
 
-- **Indentação:** É fundamental para estruturar o código e visualizar a hierarquia dos blocos. A diferença de legibilidade entre um código com e sem indentação é gritante.
-- **Comentários:** São essenciais para documentar a lógica. Em C, posso usar `//` para comentários de uma linha ou `/* ... */` para múltiplas linhas.
+- **Indentação:** Fundamental para estruturar o código e visualizar a hierarquia dos blocos.
+- **Comentários:** Essenciais para documentar a lógica. Em C, posso usar `//` para comentários de uma linha ou `/* ... */` para múltiplas linhas.
 - **Nomes Significativos:** Usar nomes de variáveis e funções que descrevam seu propósito (ex: `somaNotas` em vez de `x`) torna o código muito mais fácil de entender.
 
-## O Processo de Programação em C
+## 3. Variáveis e Tipos de Dados em C
 
-Desenvolver um programa em C segue um processo bem definido, desde a ideia até a execução:
+Variáveis são como "caixas" na memória do computador onde guardamos informações. Cada "caixa" tem um tipo, que define o que ela pode guardar.
 
-1.  **Escrita do Código-Fonte:** Criar um arquivo de texto com a extensão `.c` (ex: `ola_mundo.c`) e escrever as instruções.
-2.  **Compilação:** Usar um programa compilador (como o GCC do MinGW) para traduzir o código-fonte `.c` em código de máquina, que é a linguagem de 0s e 1s que a CPU entende.
-3.  **Ligação (Linking):** O compilador junta o nosso código de máquina com outras bibliotecas necessárias (como a `stdio.h` para `printf`).
-4.  **Execução:** Rodar o arquivo executável final gerado pelo processo.
+- **`int` (Inteiro):** Para números inteiros, sem casas decimais. Ex: `int idade = 23;`
+- **`float` e `double` (Ponto Flutuante):** Para números com casas decimais. `double` tem uma precisão maior. Ex: `float altura = 1.65;`
+- **`char` (Caractere):** Para um único caractere, que deve ser colocado entre aspas simples. Ex: `char letra = 'L';`
+- **`char[]` (String/Cadeia de Caracteres):** Para textos. Em C, um texto é um "array" (conjunto) de caracteres, e deve ser colocado entre aspas duplas. Ex: `char nome[20] = "Leonardo";`
 
-## Meu Primeiro Programa em C: O "Olá, Mundo!"
+## 4. Interagindo com o Usuário: `printf` e `scanf`
 
-Como parte do ritual de todo programador, criei meu primeiro programa em C para garantir que o ambiente de desenvolvimento (VS Code + MinGW) está configurado corretamente.
+Para um programa ser útil, ele precisa se comunicar com o mundo exterior.
 
-**Código-fonte (`ola_mundo.c`):**
-```c
-#include <stdio.h>
+- **`printf` (Saída de Dados):** Usada para **imprimir** informações na tela. Ela utiliza "especificadores de formato" para saber como exibir cada tipo de variável:
+  - `%d` para `int`
+  - `%f` para `float` e `double`
+  - `%c` para `char`
+  - `%s` para `char[]` (strings)
+  
+- **`scanf` (Entrada de Dados):** Usada para **ler** o que o usuário digita no teclado e guardar em uma variável. É crucial usar o `&` antes do nome da variável (exceto para strings) para indicar o "endereço" da memória onde o dado será salvo.
 
-int main () {
-    printf("Olá, mundo!\n");
-    return 0;
-}```
-Este código simples inclui a biblioteca de entrada/saída, define a função principal `main`, imprime a mensagem "Olá, mundo!" na tela e retorna 0, indicando que o programa terminou com sucesso.
+## 5. Meu Primeiro Programa em C: O "Olá, Mundo!"
+
+Como parte do ritual de todo programador, criei meu primeiro programa em C para garantir que o ambiente de desenvolvimento (VS Code + MinGW) está configurado corretamente. O código está no arquivo `exercicios/ola_mundo.c`.
 
 ---
 *Anotações em andamento...*
