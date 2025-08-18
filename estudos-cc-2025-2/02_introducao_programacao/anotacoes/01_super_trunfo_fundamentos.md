@@ -42,4 +42,14 @@ Para um programa ser útil, ele precisa se comunicar com o mundo exterior.
 Como parte do ritual de todo programador, criei meu primeiro programa em C para garantir que o ambiente de desenvolvimento (VS Code + MinGW) está configurado corretamente. O código está no arquivo `exercicios/ola_mundo.c`.
 
 ---
-*Anotações em andamento...*
+
+## Nível Aventureiro: Modularidade e Abstração
+
+Avançando no desenvolvimento, o foco agora é em conceitos que elevam o nível do código: a **solução estruturada**, baseada em **modularidade** e **abstração**.
+
+-   **Modularidade:** É a técnica de dividir um problema grande em subproblemas menores, criando "módulos" ou funções que realizam tarefas específicas (ex: uma função para entrada de dados, outra para processamento, outra para saída). Isso torna o código mais reutilizável e fácil de corrigir.
+-   **Abstração:** Permite focar nos aspectos mais importantes de um problema, ignorando os detalhes irrelevantes. Ajuda a criar soluções mais genéricas e eficientes.
+
+### Meu Entendimento Pessoal (Nível Aventureiro)
+
+Ficou claro para mim que a modularidade e a abstração são os próximos passos para escrever códigos mais limpos e profissionais. Em vez de um único bloco de código gigante, a ideia é criar pequenas "peças de Lego" (funções) que se encaixam para resolver o problema maior. Isso não só organiza o projeto, mas também facilita muito encontrar e consertar erros no futuro.
