@@ -1,108 +1,66 @@
 #include <stdio.h>
 
+// Protótipos das funções para o código ficar mais organizado
+void demonstrarAritmeticos();
+void demonstrarAtribuicao();
+void demonstrarIncrementoDecremento();
+
 int main()
 {
-    /*
-    Soma (+)
-    Subtração (-)
-    Multiplicação (*)
-    Divisão(/)
-    */
+    printf("--- Demonstração de Operadores Aritméticos ---\n");
+    demonstrarAritmeticos();
 
-    int numero1, numero2;
-    int soma, subtracao, multiplicacao, divisao;
+    printf("\n--- Demonstração de Operadores de Atribuição ---\n");
+    demonstrarAtribuicao();
 
-    printf("Entre com o número 1:");
-    scanf("%d", &numero1);
-    printf("Entre com o número 2:");
-    scanf("%d", &numero2);
+    printf("\n--- Demonstração de Operadores de Incremento e Decremento ---\n");
+    demonstrarIncrementoDecremento();
 
-    // Operação Soma
-    soma = numero1 + numero2;
-
-    // Operação Subtração
-    subtracao = numero1 - numero2;
-
-    // Operação Multiplicação
-    multiplicacao = numero1 * numero2;
-
-    // Operação divisão
-    divisao = numero1 / numero2;
-
-    printf("A Soma é: %d\n", soma);
-    printf("A Subtração é: %d\n", subtracao);
-    printf("A Multiplicação é: %d\n", multiplicacao);
-    printf("A Divisão é: %d: \n", divisao);
+    return 0;
 }
 
-int main()
-{
-    /*
-    Atribuição Simples (=)
-    Atribuição com Soma (+=)
-    Atribuição com Subtração (-=)
-    Atribuição com Multiplicação (*=)
-    Atribuição com Divisão (/=)
-    */
-
-    int numero1, numero2, resultado;
-    numero1 = 10;
-    resultado = 10;
-
-    printf("Resultado: %d\n", resultado);
-
-    // Resultado = resultado + 20;
-    resultado += 20;
-    printf("Resultado: %d\n", resultado);
-
-    // Resultado = resultado - numero1;
-    resultado -= numero1;
-    printf("Resultado: %d\n", resultado);
-
-    // Resultado = resultado * 5;
-    resultado *= 5;
-    printf("Resultado: %d\n", resultado);
-
-    // Resultado = resultado /2;
-    resultado /= 2;
-    printf("Resultado: %d\n", resultado);
+void demonstrarAritmeticos() {
+    int numero1 = 20;
+    int numero2 = 5;
+    printf("Números: %d e %d\n", numero1, numero2);
+    printf("Soma: %d\n", numero1 + numero2);
+    printf("Subtração: %d\n", numero1 - numero2);
+    printf("Multiplicação: %d\n", numero1 * numero2);
+    printf("Divisão: %d\n", numero1 / numero2);
 }
 
-int main()
-{
-    /*
-    Incremento (++)
-    Pré-Incremento ++a
-    Pós-Incremento a++
-    Decremento (--)
-    Pré-Decremento --a
-    Pós-Decremetno a--
-    */
+void demonstrarAtribuicao() {
+    int resultado = 10;
+    printf("Valor inicial: %d\n", resultado);
+    resultado += 20; // resultado = 10 + 20 = 30
+    printf("Após += 20: %d\n", resultado);
+    resultado -= 10; // resultado = 30 - 10 = 20
+    printf("Após -= 10: %d\n", resultado);
+    resultado *= 5;  // resultado = 20 * 5 = 100
+    printf("Após *= 5: %d\n", resultado);
+    resultado /= 2;  // resultado = 100 / 2 = 50
+    printf("Após /= 2: %d\n", resultado);
+}
 
-    int numero1 = 1, resultado;
+void demonstrarIncrementoDecremento() {
+    int numero = 5;
+    int resultado;
 
-    printf("Antes incremento %d\n", numero1);
-    // numero1 = numero1 + 1;
-    // numero1 += 1;
-    resultado = numero1++;
-    // printf("Após incremento %d\n", numero1);
-    printf("Após pós incremento - Numero 1: %d - Resultado: %d\n", numero1, resultado);
+    printf("Valor inicial de numero: %d\n", numero);
 
-    // numero1 = numero1 - 1;
-    // numero1 -= 1;
-    numero1--;
-    printf("Após decremento %d\n", numero1);
+    // Pós-incremento: usa o valor (5), depois incrementa (numero vira 6)
+    resultado = numero++;
+    printf("Pós-incremento (resultado = numero++): resultado = %d, numero = %d\n", resultado, numero);
 
-    // Pos incremento:
-    // resultado = numero1;
-    // numero++;
+    // Pré-incremento: primeiro incrementa (numero vira 7), depois usa o valor
+    resultado = ++numero;
+    printf("Pré-incremento (resultado = ++numero): resultado = %d, numero = %d\n", resultado, numero);
+    
+    // Pós-decremento: usa o valor (7), depois decrementa (numero vira 6)
+    resultado = numero--;
+     printf("Pós-decremento (resultado = numero--): resultado = %d, numero = %d\n", resultado, numero);
 
-    resultado = ++numero1;
-    printf("Após pré incremento - Numero 1: %d - Resultado: %d\n", numero1, resultado);
-
-    resultado = numero1--;
-    printf("Após pros decremento - Numero 1: %d - Resultado: %d\n", numero1, resultado);
-
-    resultado = --numero1;
-    printf("Após pré decremento - Numero 1: %d - Resultado: %d\n", numero1, resultado);
+    // Pré-decremento: primeiro decrementa (numero vira 5), depois usa o valor
+    resultado = --numero;
+    printf("Pré-decremento (resultado = --numero): resultado = %d, numero = %d\n", resultado, numero);
 }
