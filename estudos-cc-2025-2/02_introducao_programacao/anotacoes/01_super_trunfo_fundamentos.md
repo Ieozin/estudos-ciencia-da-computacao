@@ -2,54 +2,65 @@
 
 Este é o primeiro projeto prático da disciplina, focado em construir um jogo de Super Trunfo com o tema "Países" utilizando a linguagem C. O objetivo é aplicar os conceitos fundamentais da programação de forma prática.
 
-## 1. A Missão Inicial: Cadastro de Cartas
+## Nível Novato: A Base da Programação
 
-O primeiro passo do projeto é criar um sistema para cadastrar as informações das cartas do jogo. Isso servirá como base para fixar os conceitos de variáveis, operadores e funções de entrada/saída. O projeto será um ótimo item de portfólio no GitHub.
+### 1. A Missão Inicial: Cadastro de Cartas
+O primeiro passo do projeto é criar um sistema para cadastrar as informações das cartas do jogo. Isso serve como base para fixar os conceitos de variáveis, operadores e funções de entrada/saída.
 
-## 2. O Conceito-Chave: Solução Estruturada
+### 2. O Conceito-Chave: Solução Estruturada
+Programar é como seguir uma receita de bolo: o problema grande é dividido em passos menores e claros para garantir um resultado perfeito. Um código bem organizado facilita não só a minha vida, mas a de qualquer outra pessoa que precise ler ou dar manutenção no meu projeto.
 
-Para se tornar um bom programador, é essencial criar soluções de forma estruturada. Programar é como seguir uma receita de bolo: o problema grande é dividido em passos menores e claros para garantir um resultado perfeito. Um código bem organizado facilita não só a minha vida, mas a de qualquer outra pessoa que precise ler ou dar manutenção no meu projeto.
+**Boas Práticas para um Código Organizado:**
+-   **Indentação:** Fundamental para a hierarquia e legibilidade do código.
+-   **Comentários:** Essenciais para documentar a lógica (`//` para uma linha, `/* ... */` para múltiplas).
+-   **Nomes Significativos:** Usar nomes de variáveis que descrevam seu propósito (`somaNotas` em vez de `x`).
 
-### Boas Práticas para um Código Organizado
+### 3. Variáveis e Tipos de Dados em C
+Variáveis são "caixas" na memória para guardar informações. Os tipos básicos que vimos são:
+-   **`int`**: Para números inteiros.
+-   **`float` / `double`**: Para números com casas decimais (`double` tem mais precisão).
+-   **`char`**: Para um único caractere (entre aspas simples: `'A'`).
+-   **`char[]`**: Para textos/strings (entre aspas duplas: `"Leonardo"`).
 
-- **Indentação:** Fundamental para estruturar o código e visualizar a hierarquia dos blocos.
-- **Comentários:** Essenciais para documentar a lógica. Em C, posso usar `//` para comentários de uma linha ou `/* ... */` para múltiplas linhas.
-- **Nomes Significativos:** Usar nomes de variáveis e funções que descrevam seu propósito (ex: `somaNotas` em vez de `x`) torna o código muito mais fácil de entender.
+### 4. Interagindo com o Usuário: `printf` e `scanf`
+Para o programa se comunicar, usamos:
+-   **`printf`**: Para **imprimir** informações na tela.
+-   **`scanf`**: Para **ler** o que o usuário digita.
 
-## 3. Variáveis e Tipos de Dados em C
-
-Variáveis são como "caixas" na memória do computador onde guardamos informações. Cada "caixa" tem um tipo, que define o que ela pode guardar.
-
-- **`int` (Inteiro):** Para números inteiros, sem casas decimais. Ex: `int idade = 23;`
-- **`float` e `double` (Ponto Flutuante):** Para números com casas decimais. `double` tem uma precisão maior. Ex: `float altura = 1.65;`
-- **`char` (Caractere):** Para um único caractere, que deve ser colocado entre aspas simples. Ex: `char letra = 'L';`
-- **`char[]` (String/Cadeia de Caracteres):** Para textos. Em C, um texto é um "array" (conjunto) de caracteres, e deve ser colocado entre aspas duplas. Ex: `char nome[20] = "Leonardo";`
-
-## 4. Interagindo com o Usuário: `printf` e `scanf`
-
-Para um programa ser útil, ele precisa se comunicar com o mundo exterior.
-
-- **`printf` (Saída de Dados):** Usada para **imprimir** informações na tela. Ela utiliza "especificadores de formato" para saber como exibir cada tipo de variável:
-  - `%d` para `int`
-  - `%f` para `float` e `double`
-  - `%c` para `char`
-  - `%s` para `char[]` (strings)
-  
-- **`scanf` (Entrada de Dados):** Usada para **ler** o que o usuário digita no teclado e guardar em uma variável. É crucial usar o `&` antes do nome da variável (exceto para strings) para indicar o "endereço" da memória onde o dado será salvo.
-
-## 5. Meu Primeiro Programa em C: O "Olá, Mundo!"
-
-Como parte do ritual de todo programador, criei meu primeiro programa em C para garantir que o ambiente de desenvolvimento (VS Code + MinGW) está configurado corretamente. O código está no arquivo `exercicios/ola_mundo.c`.
+> #### **Minha Colinha de `printf` e `scanf`**
+>
+> Senti um pouco de dificuldade em lembrar os especificadores de formato. Deixando aqui para consulta rápida:
+>
+> -   `%d` ou `%i`: para ler/escrever um **inteiro** (`int`).
+> -   `%f`: para ler/escrever um **ponto flutuante** (`float` ou `double`).
+> -   `%c`: para ler/escrever um **caractere** (`char`).
+> -   `%s`: para ler/escrever uma **string** (`char[]`).
+> -   **Lembrete:** `scanf` precisa do `&` antes da variável (ex: `&idade`), exceto para strings. Para ler um `char` depois de um número, usar `scanf(" %c", &letra)` (com espaço) para limpar o buffer.
 
 ---
 
-## Nível Aventureiro: Modularidade e Abstração
+## Nível Aventureiro: Planejamento e Operações
 
-Avançando no desenvolvimento, o foco agora é em conceitos que elevam o nível do código: a **solução estruturada**, baseada em **modularidade** e **abstração**.
+### 1. Ferramentas de Planejamento
+Antes de codificar, é crucial planejar a lógica.
+-   **Pseudocódigo:** Escrever o algoritmo em uma linguagem natural e estruturada (como português), sem se preocupar com a sintaxe da programação. Ajuda a focar na lógica.
+-   **Fluxograma:** Uma representação gráfica do algoritmo, usando símbolos padronizados para cada passo (processo, decisão, entrada/saída).
 
--   **Modularidade:** É a técnica de dividir um problema grande em subproblemas menores, criando "módulos" ou funções que realizam tarefas específicas (ex: uma função para entrada de dados, outra para processamento, outra para saída). Isso torna o código mais reutilizável e fácil de corrigir.
--   **Abstração:** Permite focar nos aspectos mais importantes de um problema, ignorando os detalhes irrelevantes. Ajuda a criar soluções mais genéricas e eficientes.
+### 2. Modularidade e Abstração
+-   **Modularidade:** Dividir o problema em partes menores, criando "módulos" ou funções com responsabilidades únicas.
+-   **Abstração:** Focar nos aspectos mais importantes e ignorar detalhes irrelevantes para criar soluções mais genéricas.
 
-### Meu Entendimento Pessoal (Nível Aventureiro)
+### 3. Operadores Matemáticos em C
+São as ferramentas para realizar cálculos.
+-   **Aritméticos:** `+` (soma), `-` (subtração), `*` (multiplicação), `/` (divisão).
+-   **Atribuição:** `=` (simples), `+=`, `-=`, `*=`, `/=` (compostas, para modificar uma variável baseada nela mesma, ex: `resultado += 10;`).
+-   **Incremento/Decremento:** `++` (aumenta em 1), `--` (diminui em 1).
+    -   **Pré-incremento (`++variavel`):** Primeiro incrementa, depois usa o valor.
+    -   **Pós-incremento (`variavel++`):** Primeiro usa o valor, depois incrementa. *Essa foi a parte que tive mais dificuldade, preciso praticar mais.*
 
-Ficou claro para mim que a modularidade e a abstração são os próximos passos para escrever códigos mais limpos e profissionais. Em vez de um único bloco de código gigante, a ideia é criar pequenas "peças de Lego" (funções) que se encaixam para resolver o problema maior. Isso não só organiza o projeto, mas também facilita muito encontrar e consertar erros no futuro.
+### 4. Conversão de Tipos de Dados (Casting)
+-   **Implícita:** O compilador converte automaticamente (ex: somar um `int` com um `float`, o `int` vira `float` para a conta).
+-   **Explícita:** Nós forçamos a conversão usando `(tipo)variavel`. Essencial para operações como a divisão de dois inteiros onde queremos um resultado decimal: `float resultado = (float)10 / 3;`.
+
+---
+*Anotações em andamento...*
