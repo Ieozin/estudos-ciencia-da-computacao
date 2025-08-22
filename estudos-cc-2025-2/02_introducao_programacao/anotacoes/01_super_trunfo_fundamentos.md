@@ -63,4 +63,30 @@ São as ferramentas para realizar cálculos.
 -   **Explícita:** Nós forçamos a conversão usando `(tipo)variavel`. Essencial para operações como a divisão de dois inteiros onde queremos um resultado decimal: `float resultado = (float)10 / 3;`.
 
 ---
+
+## Nível Mestre: Refinando o Código
+
+Nesta fase, o foco é em ferramentas da linguagem C que dão mais controle e precisão, essenciais para a lógica de comparação do jogo.
+
+### 1. Modificadores de Tipo de Dados
+Permitem alterar as propriedades dos tipos de dados primitivos.
+
+-   **`unsigned`**: Usado para variáveis que **só podem ter valores positivos** (ou zero). A vantagem é que ele dobra a capacidade de armazenamento para números positivos. Um `int` normal vai de ~ -2 bilhões a +2 bilhões, enquanto um `unsigned int` vai de 0 a ~ +4 bilhões. É perfeito para dados como população ou pontuação.
+-   **`long`**: Usado para **aumentar a capacidade de um tipo de dado**. Um `long int` ou `long double` pode armazenar números muito maiores ou com mais precisão. Essencial para cálculos científicos ou financeiros.
+
+### 2. Operadores Relacionais
+São o coração da lógica de comparação em qualquer programa. Eles sempre retornam **1 (verdadeiro)** ou **0 (falso)**.
+
+> #### **Minha Colinha de Operadores Relacionais**
+>
+> -   `a > b`  (Maior que)
+> -   `a < b`  (Menor que)
+> -   `a >= b` (Maior ou igual a)
+> -   `a <= b` (Menor ou igual a)
+> -   `a == b` (**Exatamente igual a**. Atenção: `==` é para comparar, `=` é para atribuir valor.)
+> -   `a != b` (Diferente de)
+
+Esses operadores são fundamentais para criar estruturas de controle como `if` e `else`, que serão a base da lógica de comparação do Super Trunfo.
+
+---
 *Anotações em andamento...*
