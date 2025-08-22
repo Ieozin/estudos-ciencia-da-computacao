@@ -14,10 +14,10 @@
   - [x] Assistir ao vídeo de apresentação da disciplina.
   - [x] Entender a ementa e os objetivos de aprendizado.
 
-- [ ] **TEMA 2: Super Trunfo em C: Fundamentos e Técnicas**
-  - [ ] **Estudo:** Aprender sobre variáveis, operadores e funções de entrada/saída.
-  - [x] **Prática:** Iniciar o desenvolvimento do jogo em `exercicios/super_trunfo.c`.
-  - [ ] **Anotações:** Documentar o aprendizado em `anotacoes/01_super_trunfo_fundamentos.md`.
+- [x] **TEMA 2: Super Trunfo em C: Fundamentos e Técnicas - Concluído em 22/08/2025**
+  - [x] **Estudo:** Aprender sobre variáveis, operadores e funções de entrada/saída.
+  - [x] **Prática:** Desenvolver a primeira versão funcional do Super Trunfo.
+  - [x] **Anotações:** Documentar todo o aprendizado em `anotacoes/01_super_trunfo_fundamentos.md`.
 
 - [ ] **TEMA 3: Super Trunfo em C: Desenvolvendo a Lógica do Jogo**
   - [ ] **Estudo:** Aplicar estruturas de decisão (`if/else`, `switch`).
