@@ -20,9 +20,9 @@
   - [x] **Anotações:** Documentar todo o aprendizado em `anotacoes/01_super_trunfo_fundamentos.md`.
 
 - [ ] **TEMA 3: Super Trunfo em C: Desenvolvendo a Lógica do Jogo**
-  - [ ] **Estudo:** Aplicar estruturas de decisão (`if/else`, `switch`).
+  - [x] **Estudo:** Aplicar estruturas de decisão (`if/else`, `switch`).
   - [ ] **Prática:** Implementar as regras e a lógica de comparação das cartas.
-  - [ ] **Anotações:** Documentar os conceitos em `anotacoes/02_super_trunfo_logica.md`.
+  - [x] **Anotações:** Documentar os conceitos em `anotacoes/02_super_trunfo_logica.md`.
 
 - [ ] **TEMA 4: Movimentação de Peças de Xadrez**
   - [ ] **Estudo:** Dominar estruturas de repetição (`for`, `while`, `do-while`).
@@ -34,7 +34,11 @@
   - [ ] **Prática:** Desenvolver o jogo Batalha Naval em `exercicios/batalha_naval.c`.
   - [ ] **Anotações:** Documentar os conceitos de arrays em `anotacoes/04_batalha_naval.md`.
 
-- [x] **Exercícios:** Concluir todas as 4 listas de exercícios do portal. - *Iniciado em 22/08/2025*
+- [ ] **Exercícios Gerais**
+  - [ ] Concluir Lista 2 (Tema 2) - 22/08/2025
+  - [ ] Concluir Lista 3 (Tema 3) - 
+  - [ ] Concluir Lista 4 (Tema 4) - 
+  - [ ] Concluir Lista 5 (Tema 5) - 
 
 ### Fase 2: Revisão e Avaliação (26/08 a 30/08)
 - [ ] **27/08:** Revisão geral e depuração dos códigos.
