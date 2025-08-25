@@ -49,3 +49,26 @@ Para a conjunção "E", o correto é `&&`.
 
 ### Meu Entendimento Pessoal
 Esta primeira rodada de exercícios foi um choque de realidade, mas um muito necessário. Ficou claro que preciso dar mais atenção aos detalhes da sintaxe (como a diferença entre `/` e `%`, e entre `&&` e `||`). A questão da sequência numérica me lembrou que programação não é só sobre código, mas também sobre lógica e reconhecimento de padrões. Vou usar esses erros como um guia para focar minha revisão.
+
+---
+
+## Lista 3 (Tema 3) - Desenvolvendo a Lógica do Jogo
+- **Data de Realização:** 25/08/2025
+- **Desempenho:** 4/5 (80%)
+
+### Resumo e Pontos-Chave das Questões
+
+Esta lista foi focada em testar o conhecimento sobre operadores lógicos e as estruturas de decisão `if-else` e `switch`.
+
+- **Questão 2 (Lógica de Programação):** A expressão `if(x>0) x++; if(x<0) x--;` descreve a lógica "se x for maior que 0, incrementa; se for menor, decrementa". Se x for 0, nada acontece.
+- **Questão 3 (`break`):** O comando usado em um `switch-case` para evitar que as opções incorretas sejam executadas após a correta é o **`break`**.
+- **Questão 4 (`break` em Ação):** Quando um comando `break` é executado dentro de um `switch`, o fluxo de controle **passa para o próximo comando após o fim do `switch`**.
+- **Questão 5 (Verificação de Idade):** As instruções II (`if/else`) e III (operador ternário) exibem corretamente "Menor de idade" quando a idade é 12, pois a condição `idade>=18` é falsa. A instrução IV (`switch`) está incorreta pois `switch` não pode ser usado para avaliar condições de "maior ou menor", apenas valores constantes.
+
+### Análise do Erro (Questão 1)
+
+- **Pergunta:** Analisar um código em C e identificar o erro.
+- **Meu Erro:** Marquei a opção (B) "A função principal foi especificada para aceitar um argumento de entrada do tipo main", provavelmente pensando que `int main(void)` estava errado.
+- **Resposta Correta:** (E) "A função scanf está com um argumento de entrada, dado pelo endereço da variável a ser lida."
+- **Análise do Aprendizado:** O erro foi sutil e técnico. O código era: `scanf("%d", &i);`. A alternativa correta na verdade tinha um erro de digitação, deveria ser a **(A) A função scanf está com um argumento de entrada, dado pelo endereço da variável a ser lida incorreto.**
+A resposta correta no gabarito, (E), está mal formulada e confusa. O verdadeiro erro no código apresentado é o uso de `%d` com uma variável `char`, e a falta de aspas simples nos `case`s. No entanto, a falha mais grave apontada no gabarito (E) é que `scanf("%d", &i)` está tentando ler um inteiro e guardar no endereço da variável `i`. A questão foi mal formulada, mas a lição é sempre verificar se o **especificador de formato (`%d`, `%c`, etc.)** no `scanf` corresponde exatamente ao **tipo da variável** que está recebendo o valor.

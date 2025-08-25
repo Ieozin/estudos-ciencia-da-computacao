@@ -36,7 +36,7 @@
 
 - [ ] **Exercícios Gerais**
   - [ ] Concluir Lista 2 (Tema 2) - 22/08/2025
-  - [ ] Concluir Lista 3 (Tema 3) - 
+  - [x] Concluir Lista 3 (Tema 3) - 24/08/2025
   - [ ] Concluir Lista 4 (Tema 4) - 
   - [ ] Concluir Lista 5 (Tema 5) - 
 
